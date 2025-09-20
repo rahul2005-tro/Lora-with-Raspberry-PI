@@ -21,3 +21,15 @@ dtoverlay=spi1-3cs
 
 3.source lora_env/bin/activate
 
+
+
+# Pin Layout
+
+LoRa SX1278 Pin	Raspberry Pi Pin (Board #)	GPIO #
+VCC	Pin 1 (3.3V)	3.3V
+GND	Pin 6 (Ground)	Ground
+MISO	Pin 35	GPIO19
+MOSI	Pin 38	GPIO20
+SCK	Pin 40	GPIO21
+CS / NSS	Pin 36	GPIO16
+RESET	Pin 29 (GPIO5)	GPIO5
